@@ -11,7 +11,7 @@ import java.io.IOException;
 public class Welcome extends HttpServlet {
 
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws  IOException {
         resp.getWriter().write("<!DOCTYPE html>\n" +
                 "<html lang=\"en\">\n" +
                 "<head>\n" +
@@ -22,7 +22,7 @@ public class Welcome extends HttpServlet {
                 "<body>\n" +
                 "    <form method=\"POST\" action = \"Cell\">\n" +
                 "        <div style=\"display: flex; flex-direction: column;width: 15%; margin: auto;\">\n" +
-                "            <p>Welcofmfde to Online sho3d12312312p</p>\n" +
+                "            <p>Welcome to Online shop</p>\n" +
                 "            <input type=\"text\" placeholder=\"enter you name\" name=\"name\" id=\"\">\n" +
                 "<p><input type=\"checkbox\" name=\"option\" >I agree with the terms of service</p>" +
                 "            <button>Enter</button>\n" +
