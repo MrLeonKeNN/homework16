@@ -16,7 +16,7 @@ public class Welcome extends HttpServlet {
                 "<head>\n" +
                 "    <meta charset=\"UTF-8\">\n" +
                 "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n" +
-                "    <title>Online shop12312312312 3123</title>\n" +
+                "    <title>Online shop</title>\n" +
                 "</head>\n" +
                 "<body>\n" +
                 "    <form method=\"POST\" action = \"Cell\">\n" +
